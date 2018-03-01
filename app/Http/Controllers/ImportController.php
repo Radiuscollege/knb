@@ -311,6 +311,7 @@ class ImportController extends Controller
                 break;
             case strtolower($rating) == 'g':
                 $points = 50;
+                break;
             default:
                 return 0;
         }
